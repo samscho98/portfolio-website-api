@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "AI File Organizer",
+    "slug": "ai-file-organizer",
+    "tags": ["Python", "Flask"],
+    "description": "Organizes codebases for Claude AI analysis.",
+    "github": "https://github.com/samscho98/ai-organizer",
+    "private": false,
+    "featured": true,
+    "image_url": "/images/projects/ai-file-organizer.jpg",
+    "content": "# AI File Organizer\n\nThis project helps developers organize their codebases for AI analysis. It automatically scans through your project directories, identifies key components, and generates a structured representation that makes it easier for AI assistants to understand your codebase.\n\n## Features\n\n- Automatic file organization\n- Code structure analysis\n- Intelligent categorization\n- Integration with Claude AI\n\n## Technical Details\n\nBuilt with Python and Flask, the application uses advanced text processing algorithms to parse and organize code files."
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Dashboard",
+    "slug": "ecommerce-dashboard",
+    "tags": ["React", "Node.js", "MongoDB"],
+    "description": "Analytics dashboard for online retail stores.",
+    "github": "https://github.com/samscho98/ecommerce-dashboard",
+    "private": false,
+    "featured": true,
+    "image_url": "/images/projects/ecommerce-dashboard.jpg",
+    "content": "# E-Commerce Dashboard\n\nA comprehensive analytics solution for online retail businesses. This dashboard provides real-time insights into sales, customer behavior, and inventory management.\n\n## Features\n\n- Real-time sales tracking\n- Customer behavior analysis\n- Inventory management\n- Customizable reports\n\n## Technical Details\n\nBuilt with a React frontend, Node.js backend, and MongoDB for data storage. Uses Chart.js for data visualization."
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "slug": "portfolio-website",
+    "tags": ["React", "Flask", "Tailwind CSS"],
+    "description": "My personal portfolio website with dark mode support.",
+    "github": "https://github.com/samscho98/portfolio-website",
+    "private": false,
+    "featured": true,
+    "image_url": "/images/projects/portfolio-website.jpg",
+    "content": "# Portfolio Website\n\nThis project is my personal portfolio website, designed to showcase my work and skills as a developer. It features a clean, responsive design with dark mode support.\n\n## Features\n\n- Responsive Design\n- Dark Mode Support\n- Project Showcase\n- Contact Form\n\n## Technical Details\n\nThe portfolio uses React for the frontend and Flask for the backend API. The site is deployed on Render.com."
+  },
+  {
+    "id": 4,
+    "title": "Task Management API",
+    "slug": "task-management-api",
+    "tags": ["Python", "Flask", "PostgreSQL"],
+    "description": "RESTful API for task management applications.",
+    "github": "https://github.com/samscho98/task-api",
+    "private": false,
+    "featured": false,
+    "image_url": "/images/projects/task-api.jpg",
+    "content": "# Task Management API\n\nA robust RESTful API built for task management applications, providing endpoints for task creation, organization, assignment, and team collaboration.\n\n## Features\n\n- User Authentication\n- Task Management\n- Task Organization\n- Team Collaboration\n\n## Technical Details\n\nBuilt with Python Flask and PostgreSQL, this API follows RESTful principles and incorporates modern authentication practices."
+  },
+  {
+    "id": 5,
+    "title": "Client CRM System",
+    "slug": "client-crm",
+    "tags": ["React", "PostgreSQL", "Express"],
+    "description": "Custom CRM solution for a marketing agency.",
+    "private": true,
+    "featured": false,
+    "image_url": "/images/projects/client-crm.jpg",
+    "content": "# Client CRM System\n\nA private project developed for a marketing agency to manage their client relationships, campaigns, and analytics in one place.\n\n*This is a private client project — detailed write-up available upon request.*\n\n## My Contribution\n\nI designed and implemented the full-stack solution, including:\n\n- Client database architecture\n- Campaign management tools\n- Reporting and analytics dashboard\n- Integration with existing marketing tools\n\n## Technologies Used\n\nReact, PostgreSQL, Express, and various marketing APIs for integration purposes."
+  }
+]
