@@ -28,9 +28,11 @@ def create_app(config_name=None):
     
     # Configure CORS to allow requests from frontend
     CORS(app, resources={r"/api/*": {"origins": [
-        "http://localhost:3000",  # Development frontend
-        "https://portfolio-website-frontend.onrender.com",  # Update with your actual domain
-        "https://schonenberg.dev"  # If you have a custom domain
+        "http://localhost:3000",  # Your public site
+        "http://localhost:3001",  # Admin dashboard dev
+        "https://portfolio-website-frontend.onrender.com",  # Public site production
+        "https://admin-yourname.vercel.app",  # Admin dashboard production
+        "https://schonenberg.dev"  # Your custom domain
     ]}})
     
     # Register blueprints
